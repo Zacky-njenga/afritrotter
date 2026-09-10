@@ -21,7 +21,7 @@ export default function Header() {
                         className="h-11 w-auto object-contain"
                         priority
                     />
-                    <span className="text-xl font-bold tracking-tight text-stone-800 dark:text-stone-100">
+                    <span className="text-xl font-bold tracking-tight text-black dark:text-stone-100">
             Afritrotter
           </span>
                 </Link>
