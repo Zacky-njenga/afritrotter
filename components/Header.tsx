@@ -14,7 +14,7 @@ export default function Header() {
                 {/* Logo & Brand Name */}
                 <Link href="/public" className="flex items-center gap-3 transition-opacity hover:opacity-90">
                     <Image
-                        src="/afritrotter.jpg"
+                        src="/afrilogo.jpg"
                         alt="Afritrotter Logo"
                         width={44}
                         height={44}
