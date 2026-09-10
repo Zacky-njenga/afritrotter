@@ -8,13 +8,13 @@ export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <header className="sticky top-0 z-50 w-full border-b border-stone-200 bg-purple-600 backdrop-blur-md dark:border-stone-800 dark:bg-stone-900/90">
+        <header className="sticky top-0 z-50 w-full border-b border-stone-200 bg-purple-400 backdrop-blur-md dark:border-stone-800 dark:bg-stone-900/90">
             <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
 
                 {/* Logo & Brand Name */}
                 <Link href="/public" className="flex items-center gap-3 transition-opacity hover:opacity-90">
                     <Image
-                        src="/logo.png" // Place your logo image in the public/ folder as logo.png
+                        src="/logo.png"
                         alt="Afritrotter Logo"
                         width={44}
                         height={44}
@@ -30,13 +30,13 @@ export default function Header() {
                 <nav className="hidden items-center gap-8 md:flex">
                     <Link
                         href="/explore"
-                        className="text-sm font-medium text-stone-600 transition-colors hover:text-emerald-600 dark:text-stone-300 dark:hover:text-emerald-400"
+                        className="text-sm font-medium text-stone-600 transition-colors hover:text-shadow-amber-950 dark:text-stone-300 dark:hover:text-emerald-400"
                     >
                         Explore Wildlife
                     </Link>
                     <Link
                         href="/regions"
-                        className="text-sm font-medium text-stone-600 transition-colors hover:text-emerald-600 dark:text-stone-300 dark:hover:text-emerald-400"
+                        className="text-sm font-medium text-stone-300 transition-colors hover:text-emerald-600 dark:text-stone-300 dark:hover:text-emerald-400"
                     >
                         Regions
                     </Link>
