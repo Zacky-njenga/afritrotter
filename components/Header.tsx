@@ -8,7 +8,7 @@ export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <header className="sticky top-0 z-50 w-full border-b border-stone-200 bg-amber-50/90 backdrop-blur-md dark:border-stone-800 dark:bg-stone-900/90">
+        <header className="sticky top-0 z-50 w-full border-b border-stone-200 bg-purple-600 backdrop-blur-md dark:border-stone-800 dark:bg-stone-900/90">
             <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
 
                 {/* Logo & Brand Name */}
